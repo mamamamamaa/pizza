@@ -4,16 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./sass/main.css" />
     <title>Your pizza</title>
   </head>
   <body>
     <header>
       <div>
-        <svg width="25" height="25">
+        <svg width="25" height="25" class="logo-icon">
           <use href="./images/symbol-defs.svg#icon-food-1"></use>
         </svg>
-        <a href="">f.palace</a>
+        <a href="index.html" class="logo-text">f.palace</a>
       </div>
       <img src="./images/sandwich.png" alt="sandwich" />
       <nav>
@@ -202,20 +209,111 @@
       </section>
 
       <section class="take-away">
-        <img src="./images/app.png" alt="mobile app" />
-        <span>Take away</span>
-        <h2>Simple Way To Order Your Food</h2>
-        <p>
-          Keep healthy food readily available. When you get hungry, you’re more
-          likely to eat the first thing you see on the counter or in the
-          cupboard.
-        </p>
-        <ul>
-          <li><a href="">Link on AppStore</a></li>
-          <li><a href="">Link on PlayMarket</a></li>
-        </ul>
+        <img src="./images/cola.png" alt="cola" />
+        <img src="./images/potato.png" alt="potato" />
+        <div class="take-away-text-container">
+          <img src="./images/app.png" alt="mobile app" />
+          <span>Take away</span>
+          <h2>Simple Way To Order Your Food</h2>
+          <p>
+            Keep healthy food readily available. When you get hungry, you’re
+            more likely to eat the first thing you see on the counter or in the
+            cupboard.
+          </p>
+          <ul>
+            <li>
+              <a href=""><img src="./images/appStore.jpg" alt="apple" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./images/googlePlay.png" alt="google" /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="testimonial">
+        <div class="take-away-text-container testimonial-container">
+          <img src="./images/ketchup.png" alt="ketchup" />
+          <span>Testimonial</span>
+          <h2>That’s what our Client Says</h2>
+          <p>
+            “Food palace is an awesome place. Food is everything we are. It’s an
+            extension of nationalist feeling, ethnic feeling, your personal
+            history, your province”
+          </p>
+          <div>
+            <h3>Jessica Parker</h3>
+            <span>Product Designer @ Kitty</span>
+            <div>
+              <button type="button">
+                <svg>
+                  <use href="./images/symbol-defs.svg#icon-Left-Arrow"></use>
+                </svg>
+              </button>
+              <button type="button">
+                <svg>
+                  <use href="./images/symbol-defs.svg#icon-Right-arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer></footer>
+
+    <footer>
+      <img src="./images/pineapple.png" alt="pineapple" />
+
+      <div class="footer-logo">
+        <svg width="25" height="25" class="logo-icon">
+          <use href="./images/symbol-defs.svg#icon-food-1"></use>
+        </svg>
+        <a href="index.html" class="logo-text">f.palace</a>
+      </div>
+
+      <div>
+        <ul>
+          <li>
+            <span>Our menu</span>
+            <ul>
+              <li><a href="">Breakfast</a></li>
+              <li><a href="">Lunch</a></li>
+              <li><a href="">Dinner</a></li>
+            </ul>
+          </li>
+          <li>
+            <span>Information</span>
+            <ul>
+              <li><a href="">About us</a></li>
+              <li><a href="">Testimonial</a></li>
+              <li><a href="">Event</a></li>
+            </ul>
+          </li>
+          <li>
+            <span>Useful links</span>
+            <ul>
+              <li><a href="">Services</a></li>
+              <li><a href="">Support</a></li>
+              <li><a href="">Conditions</a></li>
+            </ul>
+          </li>
+          <li>
+            <span>Social Handles</span>
+            <ul>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Twitter</a></li>
+              <li><a href="">YouTube</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <span
+        >Created with &#9825; by Sajib Das Supriyo for Twinkle Creative. All
+        rights reserved</span
+      >
+
+      <img src="./images/fruit-heart.png" alt="fruit heart" />
+    </footer>
   </body>
 </html>
